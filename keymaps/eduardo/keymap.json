@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "notes": "Keymap derecho completo desde Kyria rev4",
+  "keyboard": "kyria_right",
+  "layout": "LAYOUT",
+  "layers": [
+    [
+      "KC_Y",    "KC_U",    "KC_I",    "KC_O",    "KC_P",    "KC_BSPC",
+      "KC_H",    "KC_J",    "KC_K",    "KC_L",    "KC_SCLN", "LCTL_T(KC_ENT)",
+      "TO(2)",    "KC_RBRC", "KC_N", "KC_M",  "KC_COMM", "KC_DOT", "KC_SLSH",  "KC_RSFT",
+      "TO(1)",   "KC_SPC",  "KC_RALT", "KC_RGUI",   "KC_APP"
+    ],
+    [
+      "KC_EXLM", "KC_AT",   "KC_HASH", "KC_DLR",   "KC_PERC",  "KC_EQL",
+      "KC_LPRN", "KC_RPRN", "KC_LBRC", "KC_RBRC",  "KC_LCBR",  "KC_RCBR",
+      "TO(0)",   "KC_PLUS", "KC_UNDS", "KC_ASTR",  "KC_TILD",  "KC_CIRC", "KC_PIPE", "KC_QUES",
+      "TO(0)",   "KC_DOT",  "KC_COMM", "KC_COLN",  "KC_SCLN"
+
+    ],
+    [
+       "KC_PGUP",  "KC_HOME", "KC_UP",    "KC_END",   "KC_VOLU", "KC_MUTE",
+      "KC_PGDN",  "KC_LEFT", "KC_DOWN",  "KC_RGHT",  "KC_VOLD", "KC_BSPC",
+      "TO(0)", "KC_TRNS", "KC_PAUS", "KC_MPRV", "KC_MPLY", "KC_MNXT", "KC_VOLD", "QK_BOOT",
+      "TO(0)",   "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS"
+    ],
+    [
+      "KC_MPRV", "KC_MSTP", "KC_MPLY", "KC_VOLU", "KC_VOLD", "KC_MUTE",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", 
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS","KC_TRNS", "KC_TRNS",
+      "TG(3)",   "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS"
+    ]
+  ]
+}
